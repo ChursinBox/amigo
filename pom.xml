@@ -23,11 +23,18 @@
         <module>eurekaServer</module>
         <module>clients</module>
         <module>notification</module>
+        <module>apigw</module>
     </modules>
 
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2023.0.5</spring-cloud.version>
+        <micrometer-tracing>1.3.4</micrometer-tracing>
+        <zipkin-reporter>3.4.0</zipkin-reporter>
+        <zipkin-sender>3.4.0</zipkin-sender>
+        <feign-micrometer>13.5</feign-micrometer>
+
+
     </properties>
 
     <dependencyManagement>
@@ -38,6 +45,26 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.micrometer</groupId>
+                <artifactId>micrometer-tracing-bridge-brave</artifactId>
+                <version>${micrometer-tracing}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.zipkin.reporter2</groupId>
+                <artifactId>zipkin-reporter-brave</artifactId>
+                <version>${zipkin-reporter}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.zipkin.reporter2</groupId>
+                <artifactId>zipkin-sender-urlconnection</artifactId>
+                <version>${zipkin-sender}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.openfeign</groupId>
+                <artifactId>feign-micrometer</artifactId>
+                <version>${feign-micrometer}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

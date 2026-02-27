@@ -1,7 +1,7 @@
 package com.cursin.customer;
 
-import com.example.fraud.FraudCheckResponse;
-import com.example.fraud.FraudClient;
+import com.chursin.fraud.FraudCheckResponse;
+import com.chursin.fraud.FraudClient;
 import com.example.notification.NotificationClient;
 import com.example.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
