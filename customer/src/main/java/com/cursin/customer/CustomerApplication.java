@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableDiscoveryClient
 @EnableFeignClients(
     basePackages = {
-            "com.example.fraud",
+            "com.chursin.fraud",
             "com.example.notification"
     }
 )
