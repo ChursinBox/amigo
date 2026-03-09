@@ -35,6 +35,9 @@ services:
     ports:
       - "9411:9411"
 
+
+
+
 networks:
   postgres:
     driver: bridge
@@ -42,3 +45,4 @@ networks:
 volumes:
   postgres:
   pgadmin:
+

@@ -1,0 +1,6 @@
+com\chursin\client\notification\NotificationClient.class
+com\chursin\client\Main.class
+com\chursin\client\FraudCheckResponse.class
+com\chursin\client\FeignTracingConfig.class
+com\chursin\client\notification\NotificationRequest.class
+com\chursin\client\FraudClient.class
