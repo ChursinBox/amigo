@@ -1,1 +1,3 @@
-com\chursin\amqp\AmqpApplication.class
+com\example\amqp\RabbitMQConfig.class
+com\example\amqp\RabbitMQMessageProducer.class
+com\example\amqp\AmqpApplication.class

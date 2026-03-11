@@ -5,86 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dfa519f-637b-4ca9-a086-88b4a6fe54ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/com/chursin/amqp/AmqpApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/com/chursin/amqp/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/com/chursin/amqp/RabbitMQMessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/NotificationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/src/main/java/com/example/apigw/ApiGWApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/src/main/java/com/chursin/apigw/ApiGWApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/target/classes/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/target/classes/com/example/apigw/ApiGWApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/chursin/fraud/FraudCheckResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/FraudCheckResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/chursin/fraud/FraudClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/FraudClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/example/FeignTracingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/FeignTracingConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/example/notification/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/notification/NotificationClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/example/notification/NotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/notification/NotificationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/classes/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/chursin/fraud/FraudCheckResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/chursin/fraud/FraudClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/example/FeignTracingConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/example/notification/NotificationClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/example/notification/NotificationRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/cursin/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/cursin/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/cursin/customer/CustomerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/cursin/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/cursin/customer/CustomerRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerRegistrationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/cursin/customer/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/cursin/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/cursin/customer/Customer$CustomerBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/cursin/customer/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/cursin/customer/CustomerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/cursin/customer/CustomerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/cursin/customer/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/cursin/customer/CustomerRegistrationRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/cursin/customer/CustomerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/cursin/customer/CustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaServer/src/main/java/com/example/EurekaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/src/main/java/com/chursin/EurekaServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaServer/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaServer/target/classes/com/example/EurekaServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/chursin/fraud/FraudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/chursin/fraud/FraudController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/com/chursin/fraud/FeignTracingConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/com/chursin/fraud/FraudApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/com/chursin/fraud/FraudCheckHistory$FraudCheckHistoryBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/com/chursin/fraud/FraudCheckHistory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/com/chursin/fraud/FraudCheckHistoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/com/chursin/fraud/FraudCheckService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/com/chursin/fraud/FraudController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/Notification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/NotificationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/NotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/NotificationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/classes/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/classes/com/example/Notification$NotificationBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/classes/com/example/Notification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/classes/com/example/NotificationApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/classes/com/example/NotificationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/classes/com/example/NotificationRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/classes/com/example/NotificationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/src/main/java/com/chursin/amqp/AmqpApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/src/main/java/com/example/amqp/AmqpApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/src/main/java/com/chursin/amqp/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/src/main/java/com/example/amqp/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/src/main/java/com/chursin/amqp/RabbitMQMessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/src/main/java/com/example/amqp/RabbitMQMessageProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/target/classes/com/chursin/amqp/AmqpApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigw/src/main/java/com/chursin/apigw/ApiGWApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/src/main/java/com/example/apigw/ApiGWApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/FeignTracingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/client/FeignTracingConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/FraudCheckResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/client/FraudCheckResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/FraudClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/client/FraudClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/notification/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/client/notification/NotificationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/chursin/client/notification/NotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/client/notification/NotificationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/chursin/client/FeignTracingConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/chursin/client/FraudCheckResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/chursin/client/FraudClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/chursin/client/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/chursin/client/notification/NotificationClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/chursin/client/notification/NotificationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/clients-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/clients-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/clients-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/clients-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerRegistrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/chursin/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/src/main/java/com/chursin/EurekaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/src/main/java/com/example/EurekaServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/chursin/fraud/FeignTracingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FeignTracingConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/chursin/fraud/FraudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/chursin/fraud/FraudCheckHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudCheckHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/chursin/fraud/FraudCheckHistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudCheckHistoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/chursin/fraud/FraudCheckService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudCheckService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/chursin/fraud/FraudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/NotificationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/chursin/notification/rabbitmq/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/rabbitmq/NotificationConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +62,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -118,18 +89,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
     "Maven.Main.executor": "Run",
     "Maven.amigo_microservices [clean].executor": "Run",
     "Maven.amigo_microservices [compile].executor": "Run",
     "Maven.amigo_microservices [install,--projects...].executor": "Run",
     "Maven.amigo_microservices [install].executor": "Run",
+    "Maven.amqp [clean].executor": "Run",
+    "Maven.amqp [install].executor": "Run",
     "Maven.clients [clean].executor": "Run",
     "Maven.clients [compile].executor": "Run",
     "Maven.clients [install].executor": "Run",
+    "Maven.customer [clean].executor": "Run",
+    "Maven.customer [install].executor": "Run",
+    "Maven.eurekaServer [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.AmqpApplication (1).executor": "Run",
+    "Spring Boot.AmqpApplication.executor": "Run",
+    "Spring Boot.EurekaServer (1).executor": "Run",
+    "Spring Boot.EurekaServer.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/проекты idea/amigo_microservices",
@@ -137,6 +118,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
@@ -152,7 +136,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Spring Boot.EurekaServer">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chursin.client.Main" />
       <module name="clients" />
@@ -167,15 +151,26 @@
       </method>
     </configuration>
     <configuration name="AmqpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="amqp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chursin.amqp.AmqpApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.amqp.AmqpApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="apigw" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chursin.apigw.ApiGWApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigw.ApiGWApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.customer.CustomerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,8 +183,17 @@
       </method>
     </configuration>
     <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="eurekaServer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chursin.EurekaServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FraudApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="fraud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.fraud.FraudApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,6 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotificationApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.notification.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="notification" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chursin.notification.NotificationApplication" />
@@ -208,8 +219,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Spring Boot.AmqpApplication" />
+      <item itemvalue="Spring Boot.ApiGWApplication" />
+      <item itemvalue="Spring Boot.CustomerApplication" />
+      <item itemvalue="Spring Boot.CustomerApplication (1)" />
+      <item itemvalue="Spring Boot.EurekaServer" />
+      <item itemvalue="Spring Boot.FraudApplication" />
+      <item itemvalue="Spring Boot.FraudApplication (1)" />
+      <item itemvalue="Spring Boot.NotificationApplication" />
+      <item itemvalue="Spring Boot.NotificationApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -230,7 +269,8 @@
       <option name="presentableId" value="Default" />
       <updated>1772739238940</updated>
       <workItem from="1772739239172" duration="318000" />
-      <workItem from="1772739862672" duration="12151000" />
+      <workItem from="1772739862672" duration="24911000" />
+      <workItem from="1773209814480" duration="2020000" />
     </task>
     <servers />
   </component>

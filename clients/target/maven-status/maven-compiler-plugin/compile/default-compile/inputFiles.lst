@@ -1,6 +1,6 @@
-D:\РїСЂРѕРµРєС‚С‹ idea\amigo_microservices\clients\src\main\java\com\chursin\client\FeignTracingConfig.java
-D:\РїСЂРѕРµРєС‚С‹ idea\amigo_microservices\clients\src\main\java\com\chursin\client\FraudCheckResponse.java
-D:\РїСЂРѕРµРєС‚С‹ idea\amigo_microservices\clients\src\main\java\com\chursin\client\FraudClient.java
-D:\РїСЂРѕРµРєС‚С‹ idea\amigo_microservices\clients\src\main\java\com\chursin\client\Main.java
-D:\РїСЂРѕРµРєС‚С‹ idea\amigo_microservices\clients\src\main\java\com\chursin\client\notification\NotificationClient.java
-D:\РїСЂРѕРµРєС‚С‹ idea\amigo_microservices\clients\src\main\java\com\chursin\client\notification\NotificationRequest.java
+D:\проекты idea\amigo_microservices\clients\src\main\java\com\example\client\Main.java
+D:\проекты idea\amigo_microservices\clients\src\main\java\com\example\client\notification\NotificationClient.java
+D:\проекты idea\amigo_microservices\clients\src\main\java\com\example\client\FeignTracingConfig.java
+D:\проекты idea\amigo_microservices\clients\src\main\java\com\example\client\notification\NotificationRequest.java
+D:\проекты idea\amigo_microservices\clients\src\main\java\com\example\client\FraudClient.java
+D:\проекты idea\amigo_microservices\clients\src\main\java\com\example\client\FraudCheckResponse.java
