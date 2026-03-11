@@ -5,7 +5,7 @@ spring:
   application:
     name: fraud
   datasource:
-    url: jdbc:postgresql://localhost:5432/fraud
+    url: jdbc:postgresql://localhost:5431/fraud
     username: 'amigoscode'
     password: 'password'
 

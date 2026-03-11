@@ -16,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="amqp" target="17" />
       <module name="eureka-server" target="17" />
       <module name="fraud (1)" target="17" />
     </bytecodeTargetLevel>
