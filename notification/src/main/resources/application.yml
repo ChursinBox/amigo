@@ -5,6 +5,10 @@ spring:
   application:
     name: notification
 
+  rabbitmq:
+    host: localhost
+    port: 5672
+
   datasource:
     url: jdbc:postgresql://localhost:5431/notification
     username: 'amigoscode'
@@ -40,3 +44,11 @@ management:
 logging:
   pattern:
     level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
+
+rabbitmq:
+  exchanges:
+    internal: internal.exchange
+  queues:
+    notification: notification.queue
+  routing-keys:
+    internal-notification: internal.notification.routing-key

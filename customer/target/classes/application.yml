@@ -5,6 +5,10 @@ spring:
   application:
     name: customer
 
+  rabbitmq:
+    host: localhost
+    port: 5672
+
   datasource:
     url: jdbc:postgresql://localhost:5431/customer
     username: 'amigoscode'
