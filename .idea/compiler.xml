@@ -9,9 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="notification" />
         <module name="apigw" />
+        <module name="amqp-app" />
         <module name="clients" />
-        <module name="eurekaServer" />
         <module name="fraud" />
+        <module name="eurekaServer" />
         <module name="customer" />
       </profile>
     </annotationProcessing>
@@ -24,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="amigo_microservices" options="" />
+      <module name="amqp-app" options="-parameters" />
       <module name="apigw" options="-parameters" />
       <module name="clients" options="-parameters" />
       <module name="customer" options="-parameters" />
