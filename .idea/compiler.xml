@@ -12,13 +12,12 @@
         <module name="amqp-app" />
         <module name="clients" />
         <module name="fraud" />
-        <module name="eurekaServer" />
+        <module name="eureka-server" />
         <module name="customer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="amqp" target="17" />
-      <module name="eureka-server" target="17" />
       <module name="fraud (1)" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -30,7 +29,6 @@
       <module name="clients" options="-parameters" />
       <module name="customer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
-      <module name="eurekaServer" options="-parameters" />
       <module name="fraud" options="-parameters" />
       <module name="fraud (1)" options="-parameters" />
       <module name="notification" options="-parameters" />

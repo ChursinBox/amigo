@@ -20,11 +20,11 @@
     <modules>
         <module>customer</module>
         <module>fraud</module>
-        <module>eurekaServer</module>
         <module>clients</module>
         <module>notification</module>
         <module>apigw</module>
         <module>amqp-app</module>
+        <module>eureka-server</module>
     </modules>
 
     <properties>
@@ -34,8 +34,9 @@
         <zipkin-reporter.version>3.4.0</zipkin-reporter.version>
         <zipkin-sender.version>3.4.0</zipkin-sender.version>
         <feign-micrometer.version>13.5</feign-micrometer.version>
-        <spring-boot-maven-plagin.version>3.3.8</spring-boot-maven-plagin.version>
+        <spring-boot-maven-plugin.version>3.3.8</spring-boot-maven-plugin.version>
         <spring-boot-dependencies.version>3.3.8</spring-boot-dependencies.version>
+        <image>andreychursintlt/${project.artifactId}:${project.version}</image>
     </properties>
 
     <dependencyManagement>
@@ -100,7 +101,7 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>${spring-boot-maven-plagin.version}</version>
+                    <version>${spring-boot-maven-plugin.version}</version>
                     <executions>
                         <execution>
                             <goals>
@@ -108,6 +109,31 @@
                             </goals>
                         </execution>
                     </executions>
+                </plugin>
+                <plugin>
+                    <groupId>com.google.cloud.tools</groupId>
+                    <artifactId>jib-maven-plugin</artifactId>
+                    <version>3.4.0</version>
+                    <configuration>
+                        <from>
+                            <image>eclipse-temurin:17@sha256:d838da85ec7aa8fd72b613e30b5f7629d8f5ac70a4264d45735a8a2ed9af447c</image>
+                            <platforms>
+                                <platform>
+                                    <architecture>arm64</architecture>
+                                    <os>linux</os>
+                                </platform>
+                                <platform>
+                                    <architecture>amd64</architecture>
+                                    <os>linux</os>
+                                </platform>
+                            </platforms>
+                        </from>
+                        <to>
+                            <tags>
+                                <tag>latest</tag>
+                            </tags>
+                        </to>
+                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
