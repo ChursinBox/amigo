@@ -1,0 +1,7 @@
+com\example\fraud\FraudCheckHistoryRepository.class
+com\example\fraud\FraudController.class
+com\example\fraud\FraudCheckHistory$FraudCheckHistoryBuilder.class
+com\example\fraud\FraudCheckService.class
+com\example\fraud\FeignTracingConfig.class
+com\example\fraud\FraudApplication.class
+com\example\fraud\FraudCheckHistory.class
